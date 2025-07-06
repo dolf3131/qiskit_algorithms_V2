@@ -58,12 +58,7 @@ conda install numpy scipy
 ## 5. Example to use fadam
 check FAdam_V1.ipynb, FAdam_V2.ipynb
 
-## Reference
-@inproceedings{hwang2024,
-  author    = {Dongseong Hwang},
-  year      = {2024},
-  title     = {FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information},
-  booktitle = {arXiv.org},
-  doi       = {10.48550/arXiv.2405.12807},
-}
+## References
+
+[1] Hwang, D. (2024). **FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information.** *arXiv.org*. [https://doi.org/10.48550/arXiv.2405.12807](https://doi.org/10.48550/arXiv.2405.12807)
 
