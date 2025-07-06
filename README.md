@@ -30,9 +30,11 @@ These modifications enable FAdam to demonstrate superior performance across dive
 
 This repository is structured with the following key files:
 
-* `main_vqe_script.py`: The main script for setting up and executing the VQE algorithm (example filename).
-* `vqe_v2.py`: Contains the definition of the `VariationalQuantumEigensolverV2` class (the custom VQE), as well as the `FAdam` and `FAdamOptimizer` class definitions.
+* `FAdam.py`: Contains the definition of the `FAdam` class (for qiskit VQE).
+* `vqe_v2.py`: Contains the definition of the `VariationalQuantumEigensolverV2` class (the custom VQE).
 * `finite_estimator_gradient_v2.py`: Contains the definition of the `FiniteDiffEstimatorGradientV2` class (the custom gradient calculator).
+* `FAdam_V1.ipynb`: Example using fadam optimizer with EstimatorV1, qiskit_algorithms VQE
+* `FAdam_V2.ipynb`: Example using fadam optimizer with EstimatorV2, custom VQE for EstimatorV2
 
 ## 4. Setup and Usage
 
