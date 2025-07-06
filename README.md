@@ -53,7 +53,7 @@ conda install qiskit pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch
 
 # 3. Install other required packages
 conda install numpy scipy
-'''
+```
 
 ## 5. Example to use fadam
 check FAdam_V1.ipynb, FAdam_V2.ipynb
