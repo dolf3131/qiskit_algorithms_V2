@@ -14,17 +14,17 @@ This implementation aims to leverage the advanced features of Qiskit's `Estimato
 
 ## 2. Introduction to Fisher Adam (FAdam)
 
-[cite_start]Fisher Adam (FAdam) is an enhanced optimization algorithm building upon the Adam optimizer's mathematical foundation, re-examined through the lens of Information Geometry and Riemannian Geometry[cite: 1]. [cite_start]According to the paper, Adam approximates Natural Gradient Descent (NGD) by utilizing a diagonal empirical Fisher Information Matrix (FIM)[cite: 1].
+Fisher Adam (FAdam) is an enhanced optimization algorithm building upon the Adam optimizer's mathematical foundation, re-examined through the lens of Information Geometry and Riemannian Geometry[cite: 1]. [cite_start]According to the paper, Adam approximates Natural Gradient Descent (NGD) by utilizing a diagonal empirical Fisher Information Matrix (FIM).
 
-[cite_start]FAdam proposes several corrections to the original Adam algorithm to address its inherent flaws[cite: 1]:
+FAdam proposes several corrections to the original Adam algorithm to address its inherent flaws:
 
-* [cite_start]Enhanced momentum calculations [cite: 1]
-* [cite_start]Adjusted bias corrections [cite: 1]
-* [cite_start]Adaptive epsilon [cite: 1]
-* [cite_start]Gradient clipping [cite: 1]
-* [cite_start]Refined weight decay term based on a new theoretical framework [cite: 1]
+* Enhanced momentum calculations 
+* Adjusted bias corrections 
+* Adaptive epsilon
+* Gradient clipping 
+* Refined weight decay term based on a new theoretical framework 
 
-[cite_start]These modifications enable FAdam to demonstrate superior performance across diverse domains such as Large Language Models (LLMs), Automatic Speech Recognition (ASR), and Vector Quantized Variational Autoencoders (VQ-VAE), achieving state-of-the-art results in ASR[cite: 1].
+These modifications enable FAdam to demonstrate superior performance across diverse domains such as Large Language Models (LLMs), Automatic Speech Recognition (ASR), and Vector Quantized Variational Autoencoders (VQ-VAE), achieving state-of-the-art results in ASR.
 
 ## 3. Project Structure
 
@@ -57,4 +57,13 @@ conda install numpy scipy
 
 ## 5. Example to use fadam
 check FAdam_V1.ipynb, FAdam_V2.ipynb
+
+## Reference
+@inproceedings{hwang2024,
+  author    = {Dongseong Hwang},
+  year      = {2024},
+  title     = {FAdam: Adam is a natural gradient optimizer using diagonal empirical Fisher information},
+  booktitle = {arXiv.org},
+  doi       = {10.48550/arXiv.2405.12807},
+}
 
