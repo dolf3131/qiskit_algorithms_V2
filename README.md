@@ -1,8 +1,5 @@
 # Qiskit Algorithms V2 - FAdam VQE Custom Implementation
 
-[![GitHub license](https://img.shields.io/github/license/dolf3131/qiskit_algorithms_V2)](https://github.com/dolf3131/qiskit_algorithms_V2/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/dolf3131/qiskit_algorithms_V2?style=social)](https://github.com/dolf3131/qiskit_algorithms_V2/stargazers)
-
 This repository contains a custom implementation for integrating the Fisher Adam (FAdam) optimizer into the Variational Quantum Eigensolver (VQE) algorithm, adapted to Qiskit's latest Primitives API, `EstimatorV2`.
 
 ## 1. Project Overview
@@ -56,3 +53,7 @@ conda install qiskit pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch
 
 # 3. Install other required packages
 conda install numpy scipy
+
+# 4. Example to use fadam
+check FAdam_V1.ipynb, FAdam_V2.ipynb
+
